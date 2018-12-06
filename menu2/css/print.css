@@ -1,0 +1,13 @@
+@page{size: landscape;}
+
+body{
+	font-family: Verdana;
+}
+
+aside{
+	display: none !important;
+}
+
+a::after{
+	content: " ("attr(href)") ";
+}
